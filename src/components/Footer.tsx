@@ -59,6 +59,9 @@ export default function Footer() {
                 White Glove Education
               </span>
             </div>
+            <p className="text-xs text-slate-soft font-medium mt-1 mb-3">
+              White Glove Education Services Private Limited
+            </p>
             <p className="text-sm text-slate-soft leading-relaxed">
               Building the future of student empowerment through technology and education.
             </p>
@@ -136,10 +139,11 @@ export default function Footer() {
 
         {/* Bottom bar */}
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4 pt-8 border-t border-charcoal/5">
-          <p className="text-xs text-slate-soft">
-            © {new Date().getFullYear()} White Glove Education. All rights
-            reserved.
-          </p>
+          <div>
+            <p className="text-xs text-slate-soft">
+              © {new Date().getFullYear()} White Glove Education Services Private Limited. All rights reserved.
+            </p>
+          </div>
           <div className="flex items-center gap-1 text-xs text-slate-soft">
             <span>Made with</span>
             <svg viewBox="0 0 20 20" fill="#C9A84C" className="h-3.5 w-3.5">

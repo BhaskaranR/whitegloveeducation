@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import Mission from "@/components/Mission";
 import Portfolio from "@/components/Portfolio";
 import Stats from "@/components/Stats";
+import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       <Mission />
       <Portfolio />
       <Stats />
+      <Contact />
       <Footer />
     </main>
   );

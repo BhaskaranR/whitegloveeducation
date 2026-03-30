@@ -47,7 +47,7 @@ export default function Navigation() {
 
             {/* Desktop Nav */}
             <div className="hidden md:flex items-center gap-10">
-              {["Mission", "Portfolio", "Impact"].map((item) => (
+              {["Mission", "Portfolio", "Impact", "Contact"].map((item) => (
                 <a
                   key={item}
                   href={`#${item.toLowerCase()}`}
@@ -58,7 +58,7 @@ export default function Navigation() {
                 </a>
               ))}
               <a
-                href="mailto:hello@whitegloveeducation.com"
+                href="#contact"
                 className="rounded-full bg-charcoal px-6 py-2.5 text-sm font-medium text-cream hover:bg-gold hover:text-charcoal transition-all duration-500"
               >
                 Get in Touch
@@ -100,7 +100,7 @@ export default function Navigation() {
             className="fixed inset-0 z-40 bg-cream pt-24 px-8 md:hidden"
           >
             <div className="flex flex-col gap-8">
-              {["Mission", "Portfolio", "Impact"].map((item, i) => (
+              {["Mission", "Portfolio", "Impact", "Contact"].map((item, i) => (
                 <motion.a
                   key={item}
                   href={`#${item.toLowerCase()}`}
@@ -114,7 +114,8 @@ export default function Navigation() {
                 </motion.a>
               ))}
               <a
-                href="mailto:hello@whitegloveeducation.com"
+                href="#contact"
+                onClick={() => setMobileOpen(false)}
                 className="mt-4 inline-block rounded-full bg-charcoal px-8 py-3 text-center text-sm font-medium text-cream"
               >
                 Get in Touch
