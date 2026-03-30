@@ -62,9 +62,13 @@ export default function Footer() {
             <p className="text-xs text-slate-soft font-medium mt-1 mb-3">
               White Glove Education Services Private Limited
             </p>
-            <p className="text-sm text-slate-soft leading-relaxed">
+            <p className="text-sm text-slate-soft leading-relaxed mb-3">
               Building the future of student empowerment through technology and education.
             </p>
+            <div className="space-y-1">
+              <p className="text-xs text-slate-soft/70">CIN: U85499TS2024PTC186096</p>
+              <p className="text-xs text-slate-soft/70">GSTIN: 36AADCW8436C1ZA</p>
+            </div>
           </div>
 
           {/* Portfolio col */}
@@ -118,20 +122,35 @@ export default function Footer() {
           {/* Contact */}
           <div>
             <h4 className="text-xs font-semibold uppercase tracking-[0.2em] text-slate-soft mb-6">
-              Locations
+              Contact
             </h4>
             <div className="space-y-4">
               <div>
-                <p className="text-sm font-medium text-warm-gray">Hyderabad</p>
-                <p className="text-xs text-slate-soft mt-0.5">
-                  Ameerpet, Telangana
+                <p className="text-sm font-medium text-warm-gray">Address</p>
+                <p className="text-xs text-slate-soft mt-0.5 leading-relaxed">
+                  Vasavi MPM Grand, Unit No. 300/3,<br />
+                  3rd Floor, 4th Level,<br />
+                  beside Metro Station, Ameerpet,<br />
+                  Hyderabad, Telangana 500038
                 </p>
               </div>
               <div>
-                <p className="text-sm font-medium text-warm-gray">Warangal</p>
-                <p className="text-xs text-slate-soft mt-0.5">
-                  Telangana
-                </p>
+                <p className="text-sm font-medium text-warm-gray">Phone</p>
+                <a
+                  href="tel:+919966233362"
+                  className="text-xs text-slate-soft hover:text-charcoal transition-colors duration-300"
+                >
+                  +91 99662 33362 / 72
+                </a>
+              </div>
+              <div>
+                <p className="text-sm font-medium text-warm-gray">Email</p>
+                <a
+                  href="mailto:Info.Hyd@StudySquare.in"
+                  className="text-xs text-slate-soft hover:text-charcoal transition-colors duration-300"
+                >
+                  Info.Hyd@StudySquare.in
+                </a>
               </div>
             </div>
           </div>
