@@ -62,9 +62,6 @@ export default function Footer() {
             <p className="text-xs text-slate-soft font-medium mt-1 mb-3">
               White Glove Education Services Private Limited
             </p>
-            <p className="text-sm text-slate-soft leading-relaxed mb-3">
-              Building the future of student empowerment through technology and education.
-            </p>
             <div className="space-y-1">
               <p className="text-xs text-slate-soft/70">CIN: U85499TS2024PTC186096</p>
               <p className="text-xs text-slate-soft/70">GSTIN: 36AADCW8436C1ZA</p>
@@ -84,7 +81,7 @@ export default function Footer() {
                   rel="noopener noreferrer"
                   className="text-sm font-medium text-warm-gray hover:text-study-blue transition-colors duration-300"
                 >
-                  StudySquare Telangana
+                  White Glove Education
                 </a>
               </li>
               <li>
@@ -136,20 +133,28 @@ export default function Footer() {
               </div>
               <div>
                 <p className="text-sm font-medium text-warm-gray">Phone</p>
-                <a
-                  href="tel:+919966233362"
-                  className="text-xs text-slate-soft hover:text-charcoal transition-colors duration-300"
-                >
-                  +91 99662 33362 / 72
-                </a>
+                <div className="space-y-0.5 mt-0.5">
+                  <a
+                    href="tel:+919966233362"
+                    className="block text-xs text-slate-soft hover:text-charcoal transition-colors duration-300"
+                  >
+                    +91 99662 33362 / 72
+                  </a>
+                  <a
+                    href="tel:+919885279081"
+                    className="block text-xs text-slate-soft hover:text-charcoal transition-colors duration-300"
+                  >
+                    +91 98852 79081
+                  </a>
+                </div>
               </div>
               <div>
                 <p className="text-sm font-medium text-warm-gray">Email</p>
                 <a
-                  href="mailto:Info.Hyd@StudySquare.in"
+                  href="mailto:randhir@whitegloveeducation.com"
                   className="text-xs text-slate-soft hover:text-charcoal transition-colors duration-300"
                 >
-                  Info.Hyd@StudySquare.in
+                  randhir@whitegloveeducation.com
                 </a>
               </div>
             </div>

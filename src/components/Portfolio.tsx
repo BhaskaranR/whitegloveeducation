@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 const ventures = [
   {
     id: "studysquare",
-    name: "StudySquare Telangana",
+    name: "White Glove Education",
     tagline: "Your gateway to global education",
     url: "https://studysquaretelangana.com",
     color: "study-blue",

@@ -4,7 +4,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "White Glove Education — Empowering the Next Generation",
   description:
-    "White Glove Education is the holding company behind StudySquare Telangana and LoopEarn — building transformative platforms at the intersection of education, technology, and student empowerment.",
+    "White Glove Education is the holding company behind White Glove Education and LoopEarn — building transformative platforms at the intersection of education, technology, and student empowerment.",
   openGraph: {
     title: "White Glove Education",
     description:
